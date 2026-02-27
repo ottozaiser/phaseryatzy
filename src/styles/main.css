@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Ranchers&display=swap');
+
+:root {
+  --game-bg-color: #056037;
+  --font-family-game: 'DynaPuff', 'Arial', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
